@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Notes.NotesListActivity">
+
+    <TextView
+        android:id="@+id/Notes"
+        android:layout_width="145dp"
+        android:layout_height="40dp"
+        android:background="@color/teal_200"
+        android:text="EE Notes"
+        android:textColor="#F8F8F8"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <TextView
+        android:id="@+id/subjectstitle"
+        android:layout_width="408dp"
+        android:layout_height="59dp"
+        android:background="@color/teal_200"
+        android:text="@string/subjects"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <Button
+        android:id="@+id/addsubjectBtn"
+        android:layout_width="119dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#01FD0B"
+        android:text="@string/add_subject"
+        android:textColor="#070707"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subjectstitle"
+        app:layout_constraintVertical_bias="0.969" />
+
+    <Button
+        android:id="@+id/dltTitleButton"
+        android:layout_width="119dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#01FD0B"
+        android:text="Delete subject"
+        android:textColor="#070707"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subjectstitle"
+        app:layout_constraintVertical_bias="0.969" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSubTitleItems"
+        android:layout_width="410dp"
+        android:layout_height="437dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/notesub_item" />
+
+
+    <ImageButton
+        android:id="@+id/notebackbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:contentDescription="@string/gobacktomenu"
+        app:layout_constraintBottom_toTopOf="@+id/subjectstitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.363"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "542200746337",
+    "firebase_url": "https://scholarship-d6a4f-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "scholarship-d6a4f",
+    "storage_bucket": "scholarship-d6a4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542200746337:android:32707d8bde3ab72205b520",
+        "android_client_info": {
+          "package_name": "com.example.newsscholarship"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542200746337-cbedh0vkb0poqcg365ub27tn5v43utf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZYJJ5-quN0MazB5eyzFwXmseghoPukyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542200746337-cbedh0vkb0poqcg365ub27tn5v43utf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542200746337:android:a684ca55e836028b05b520",
+        "android_client_info": {
+          "package_name": "com.example.scholarshipnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542200746337-cbedh0vkb0poqcg365ub27tn5v43utf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZYJJ5-quN0MazB5eyzFwXmseghoPukyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542200746337-cbedh0vkb0poqcg365ub27tn5v43utf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

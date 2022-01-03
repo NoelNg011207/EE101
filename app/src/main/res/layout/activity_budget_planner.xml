@@ -129,7 +129,7 @@
             android:layout_below="@id/dashboard"
             android:layout_marginStart="10dp"
             android:layout_marginTop="12dp"
-            android:text="Transactions"
+            android:text="Transactions(Swipe right to delete transactions)"
             android:textColor="@color/colorNoteSubtitleText"
             android:textSize="20sp"
             android:textStyle="bold" />

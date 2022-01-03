@@ -13,6 +13,7 @@
         android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/black"
         tools:context=".`Budget Planner`">
 
         <LinearLayout
@@ -24,10 +25,10 @@
             android:orientation="vertical">
 
             <ImageButton
+                android:id="@+id/Homebtn"
                 android:layout_width="51dp"
                 android:layout_height="49dp"
-                android:background="@drawable/ic_home"
-                android:id="@+id/Homebtn"/>
+                android:background="@drawable/ic_home" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -35,6 +36,7 @@
                 android:text="Total Balance"
                 android:textAlignment="center"
                 android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
                 android:textSize="20sp" />
 
             <TextView
@@ -44,6 +46,7 @@
                 android:text="RM300"
                 android:textAlignment="center"
                 android:textAllCaps="true"
+                android:textColor="@color/colorWhite"
                 android:textSize="32sp"
                 android:textStyle="bold" />
 
@@ -58,6 +61,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
+            android:background="@color/colorIcon"
             app:cardCornerRadius="12dp">
 
             <LinearLayout
@@ -88,6 +92,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Budget"
+                        android:textColor="@color/black"
                         android:textSize="17sp" />
                 </LinearLayout>
 
@@ -111,6 +116,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Expense"
+                        android:textColor="@color/black"
                         android:textSize="17sp" />
                 </LinearLayout>
             </LinearLayout>
@@ -124,6 +130,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="12dp"
             android:text="Transactions"
+            android:textColor="@color/colorNoteSubtitleText"
             android:textSize="20sp"
             android:textStyle="bold" />
 

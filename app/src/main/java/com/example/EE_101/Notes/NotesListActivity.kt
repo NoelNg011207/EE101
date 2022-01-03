@@ -12,10 +12,9 @@ import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.activity_notes_list.*
 
 class NotesListActivity : AppCompatActivity() {
-    private lateinit var dbref : DatabaseReference
+    private lateinit var dbref1 : DatabaseReference
     private lateinit var NRecyclerView : RecyclerView
     private lateinit var NArrayList : ArrayList<NotesSub>
-    private lateinit var NoteAdpater : NoteSubAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
@@ -31,27 +30,29 @@ class NotesListActivity : AppCompatActivity() {
         var c=Intent(this, ADDnotes::class.java)
         addsubjectBtn.setOnClickListener {
             startActivity(c)
+            finish()
         }
         dltTitleButton.setOnClickListener {
             startActivity(c)
+            finish()
         }
 
         notebackbtn.setOnClickListener {
             var d=Intent(this, MainActivity::class.java)
             startActivity(d)
+            finish()
         }
     }
-    fun searchWeb(SR : String){
+    fun searchWeb(Notes : String){
         var i = Intent(this, ViewWebsite::class.java)
-        i.putExtra("url",SR)
+        i.putExtra("url",Notes)
         startActivity(i)
     }
 
     private fun getNotesData() {
-        dbref = FirebaseDatabase.getInstance().getReference("Notes")
+        dbref1 = FirebaseDatabase.getInstance().getReference("Notes")
 
-
-        dbref.addValueEventListener(object: ValueEventListener {
+        dbref1.addValueEventListener(object: ValueEventListener {
 
             override fun onDataChange(snapshot: DataSnapshot) {
 

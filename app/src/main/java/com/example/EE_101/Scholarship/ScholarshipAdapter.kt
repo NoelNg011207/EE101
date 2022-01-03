@@ -55,7 +55,7 @@ class ScholarshipAdapter
         init {
             itemView.setOnClickListener{
 
-                listener.onItemClick(adapterPosition)
+                listener.onItemClick(absoluteAdapterPosition)
             }
         }
 

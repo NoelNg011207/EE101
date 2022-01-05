@@ -2,10 +2,12 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Financial_Planner.DetailedActivity"
-    android:id="@+id/rootView">
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Financial_Planner.DetailedActivity">
+
 
     <ImageButton
         android:id="@+id/closeBtn"
@@ -19,6 +21,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,8 +67,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="numberDecimal|numberSigned"
-                android:textColor="@color/colorWhite"
                 android:maxLines="1"
+                android:textColor="@color/colorWhite"
                 android:textSize="34sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -85,8 +88,8 @@
                 android:id="@+id/descriptionInput"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorWhite"
                 android:inputType="text|textMultiLine"
+                android:textColor="@color/colorWhite"
                 android:textSize="34sp" />
 
         </com.google.android.material.textfield.TextInputLayout>

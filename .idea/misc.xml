@@ -3,6 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/EE101/app/src/main/res/layout/activity_add_transaction.xml" value="0.14375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/EE101/app/src/main/res/layout/activity_addnotes.xml" value="0.14375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/EE101/app/src/main/res/layout/activity_addscholarship.xml" value="0.14375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/EE101/app/src/main/res/layout/activity_budget_planner.xml" value="0.14375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/EE101/app/src/main/res/layout/activity_create_note.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/EE101/app/src/main/res/layout/activity_detailed.xml" value="0.14375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/EE101/app/src/main/res/layout/activity_main.xml" value="0.14375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/EE101/app/src/main/res/layout/activity_notes_list.xml" value="0.17300724637681159" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/EE101/app/src/main/res/layout/activity_sholarship_list.xml" value="0.14375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/EE101/app/src/main/res/layout/activity_todolist.xml" value="0.14375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/EE101/app/src/main/res/layout/item_container_note.xml" value="0.14375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/EE101/app/src/main/res/layout/layout_delete_note.xml" value="0.14375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/EE101/app/src/main/res/layout/layout_miscellaneous.xml" value="0.14375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/EE101/app/src/main/res/layout/notesub_item.xml" value="0.14375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/EE101/app/src/main/res/layout/sholarship_item.xml" value="0.14375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/EE101/app/src/main/res/layout/transaction_layout.xml" value="0.14375" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/EE101/app/src/main/res/layout/view_website.xml" value="0.14375" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/drawable/background_add_button.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/drawable/ic_add.xml" value="0.14791666666666667" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/drawable/ic_baseline_attach_money_24.xml" value="0.1" />
@@ -50,5 +67,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.176" />
+      </ProjectState>
+    </option>
   </component>
 </project>

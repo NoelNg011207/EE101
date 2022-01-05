@@ -123,7 +123,7 @@
             android:layout_below="@id/dashboard"
             android:layout_marginStart="10dp"
             android:layout_marginTop="12dp"
-            android:text="Transactions(Swipe right to delete transactions)"
+            android:text="Transactions\n(Swipe right to delete transactions)"
             android:textColor="@color/colorNoteSubtitleText"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -138,21 +138,17 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp" />
 
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/addBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageButton
+            android:id="@+id/ADDFA"
+            android:layout_width="51dp"
+            android:layout_height="49dp"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="99dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="18dp"
-            android:layout_marginRight="179dp"
+            android:layout_marginEnd="33dp"
             android:layout_marginBottom="19dp"
             android:layout_toStartOf="@+id/intentScholarship"
-            android:layout_toEndOf="@+id/Homebtn"
+            android:background="@drawable/background_add_button"
             android:src="@drawable/ic_add"
-            app:borderWidth="0dp"
-            app:tint="@color/white" />
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
             android:id="@+id/FAbackbtn"
@@ -180,17 +176,21 @@
             android:layout_alignParentBottom="true"
             android:layout_marginStart="32dp"
             android:layout_marginBottom="21dp"
-            android:background="@drawable/ic_home" />
+            android:background="@drawable/ic_home"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
             android:id="@+id/intentTDL"
             android:layout_width="51dp"
             android:layout_height="49dp"
-            android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="255dp"
-            android:layout_marginBottom="19dp"
-            android:background="@drawable/ic_baseline_checklist_24" />
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="17dp"
+            android:layout_toStartOf="@+id/ADDFA"
+            android:layout_toEndOf="@+id/Homebtn"
+            android:background="@drawable/ic_baseline_checklist_24"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
             android:id="@+id/intentNotes"
@@ -200,7 +200,8 @@
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="27dp"
             android:layout_marginBottom="19dp"
-            android:background="@drawable/ic_baseline_note_24" />
+            android:background="@drawable/ic_baseline_note_24"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
             android:id="@+id/intentScholarship"
@@ -210,7 +211,8 @@
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="95dp"
             android:layout_marginBottom="19dp"
-            android:background="@drawable/ic_baseline_contacts_24" />
+            android:background="@drawable/ic_baseline_contacts_24"
+            tools:ignore="SpeakableTextPresentCheck" />
 
 
     </RelativeLayout>

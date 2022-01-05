@@ -50,7 +50,7 @@ class Budget_Planner : AppCompatActivity() {
 
 
 
-        addBtn.setOnClickListener {
+        ADDFA.setOnClickListener {
             val intent  = Intent(this, AddTransactionActivity::class.java)
             startActivity(intent)
         }

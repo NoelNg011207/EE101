@@ -5,11 +5,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.EE_101.Financial_Planner.Budget_Planner
 import com.example.EE_101.MainActivity
+import com.example.EE_101.Notes.NotesListActivity
 import com.example.EE_101.R
+import com.example.EE_101.To_do_list.To_do_activities.Todo_list_activity
 import com.example.EE_101.ViewWebsite
 import com.google.firebase.database.*
+import kotlinx.android.synthetic.main.activity_budget_planner.*
 import kotlinx.android.synthetic.main.activity_sholarship_list.*
+import kotlinx.android.synthetic.main.activity_sholarship_list.intentNotes
+import kotlinx.android.synthetic.main.activity_sholarship_list.intentTDL
 
 class SholarshipListActivity : AppCompatActivity() {
 
@@ -38,6 +44,24 @@ class SholarshipListActivity : AppCompatActivity() {
         addbtn.setOnClickListener {
             var a=Intent(this, ADDScholarship::class.java)
             startActivity(a)
+        }
+
+        intentNotes.setOnClickListener {
+            val c= Intent(this, NotesListActivity::class.java)
+            startActivity(c)
+        }
+        intentFA.setOnClickListener {
+            val d= Intent(this,Budget_Planner::class.java)
+            startActivity(d)
+        }
+        intentTDL.setOnClickListener {
+            val e=Intent(this, Todo_list_activity::class.java)
+            startActivity(e)
+        }
+
+        homebtn.setOnClickListener {
+            val f = Intent(this, MainActivity::class.java)
+            startActivity(f)
         }
     }
     fun searchWeb(SR : String){

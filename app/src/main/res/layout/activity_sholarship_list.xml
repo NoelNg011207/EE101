@@ -41,22 +41,72 @@
         android:layout_height="55dp"
         android:layout_below="@+id/headerscholarmain"
         android:layout_alignParentEnd="true"
-        android:background="#474444"
+        android:layout_marginTop="24dp"
+        android:background="@color/teal_200"
         android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/headerscholarmain"
-        app:srcCompat="@android:drawable/ic_menu_add"
+        app:layout_constraintEnd_toStartOf="@+id/intentNotes"
+        app:layout_constraintStart_toEndOf="@+id/intentTDL"
+        app:layout_constraintTop_toBottomOf="@+id/ScholarshipList"
+        app:srcCompat="@drawable/ic_add"
+        app:tint="@color/white"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/homebtn"
+        android:layout_width="51dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/ic_home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ScholarshipList" />
+
+    <ImageButton
+        android:id="@+id/intentTDL"
+        android:layout_width="51dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/ic_baseline_checklist_24"
+        app:layout_constraintStart_toEndOf="@+id/homebtn"
+        app:layout_constraintTop_toBottomOf="@+id/ScholarshipList" />
+
+    <ImageButton
+        android:id="@+id/intentNotes"
+        android:layout_width="51dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/ic_baseline_note_24"
+        app:layout_constraintEnd_toStartOf="@+id/intentFA"
+        app:layout_constraintTop_toBottomOf="@+id/ScholarshipList" />
+
+    <ImageButton
+        android:id="@+id/intentFA"
+        android:layout_width="51dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/ic_baseline_attach_money_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ScholarshipList" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/ScholarshipList"
-        android:layout_width="397dp"
-        android:layout_height="538dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="400dp"
+        android:layout_height="475dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addbtn"
+        app:layout_constraintTop_toBottomOf="@+id/headerscholarmain"
         tools:listitem="@layout/sholarship_item" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,8 @@ package com.example.EE_101
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.drawerlayout.widget.DrawerLayout
 import com.example.EE_101.Notes.NotesListActivity
 import com.example.EE_101.Scholarship.SholarshipListActivity
 import com.example.EE_101.To_do_list.To_do_activities.Todo_list_activity

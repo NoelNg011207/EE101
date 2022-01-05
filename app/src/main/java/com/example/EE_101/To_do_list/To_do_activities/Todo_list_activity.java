@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import androidx.annotation.Nullable;
@@ -11,8 +12,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
+import com.example.EE_101.Financial_Planner.Budget_Planner;
 import com.example.EE_101.MainActivity;
+import com.example.EE_101.Notes.NotesListActivity;
 import com.example.EE_101.R;
+import com.example.EE_101.Scholarship.SholarshipListActivity;
 import com.example.EE_101.To_do_list.adapter.NotesAdapter;
 import com.example.EE_101.To_do_list.database.NotesDatabase;
 import com.example.EE_101.To_do_list.entities.Note;
@@ -54,6 +58,30 @@ public class Todo_list_activity extends AppCompatActivity implements NotesListen
             );
         });
 
+        ImageButton intentSL = findViewById(R.id.intentScholarship);
+        intentSL.setOnClickListener(view ->{
+            startActivity(new Intent(getApplicationContext(), SholarshipListActivity.class)
+            );
+        });
+
+        ImageButton intentnotes = findViewById(R.id.intentNotes);
+        intentnotes.setOnClickListener(view ->{
+            startActivity(new Intent(getApplicationContext(), NotesListActivity.class)
+            );
+        });
+
+        ImageButton intentHome = findViewById(R.id.homebtn);
+        intentHome.setOnClickListener(view ->{
+            startActivity(new Intent(getApplicationContext(), MainActivity.class)
+            );
+        });
+
+        ImageButton intentFA = findViewById(R.id.intentFA);
+        intentFA.setOnClickListener(view ->{
+            startActivity(new Intent(getApplicationContext(), Budget_Planner.class)
+            );
+        });
+
         notesRecyclerView = findViewById(R.id.notesRecyclerView);
         notesRecyclerView.setLayoutManager(
                 new StaggeredGridLayoutManager(1,StaggeredGridLayoutManager.VERTICAL)
@@ -64,6 +92,7 @@ public class Todo_list_activity extends AppCompatActivity implements NotesListen
         notesRecyclerView.setAdapter(notesAdapter);
 
         getNotes(REQUEST_CODE_SHOW_NOTES,false);
+
 
     }
 

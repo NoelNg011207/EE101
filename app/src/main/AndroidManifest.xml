@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.EE_101">
+    package="com.example.EE_101" >
 
     <application
         android:allowBackup="true"
@@ -8,25 +8,30 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ScholarshipNews">
+        android:theme="@style/Theme.ScholarshipNews" >
         <activity
-            android:name="com.example.EE_101.Financial_Planner.Budget_Planner"
+            android:name=".Navigation_drawer"
+            android:exported="false"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/Theme.ScholarshipNews.NoActionBar" />
+        <activity
+            android:name=".Financial_Planner.Budget_Planner"
             android:exported="false" />
         <activity
-            android:name="com.example.EE_101.Financial_Planner.DetailedActivity"
+            android:name=".Financial_Planner.DetailedActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.EE_101.Financial_Planner.AddTransactionActivity"
+            android:name=".Financial_Planner.AddTransactionActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.EE_101.Notes.ADDnotes"
+            android:name=".Notes.ADDnotes"
             android:exported="false" />
         <activity
-            android:name="com.example.EE_101.Notes.NotesListActivity"
+            android:name=".Notes.NotesListActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.EE_101.ViewWebsite"
-            android:exported="true">
+            android:name=".ViewWebsite"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="OPEN_ACTIVITY_1" />
 
@@ -34,24 +39,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.EE_101.Scholarship.ADDScholarship"
+            android:name=".Scholarship.ADDScholarship"
             android:exported="false" />
         <activity
-            android:name="com.example.EE_101.Scholarship.SholarshipListActivity"
+            android:name=".Scholarship.SholarshipListActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.EE_101.To_do_list.To_do_activities.Todo_list_activity"
-            android:exported="false"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden"/>
-        <activity
-            android:name="com.example.EE_101.To_do_list.To_do_activities.CreateNoteActivity"
+            android:name=".To_do_list.To_do_activities.Todo_list_activity"
             android:exported="false"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.example.EE_101.MainActivity"
-            android:exported="true">
+            android:name=".To_do_list.To_do_activities.CreateNoteActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

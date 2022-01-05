@@ -55,32 +55,31 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/notesRecyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginTop="68dp"
+        android:layout_width="431dp"
+        android:layout_height="512dp"
+        android:layout_marginTop="16dp"
         android:clipToPadding="false"
         android:paddingStart="0dp"
         android:paddingEnd="@dimen/_12sdp"
         android:paddingBottom="@dimen/_12sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/layoutSearch"
-        tools:layout_editor_absoluteX="0dp"
-        tools:listitem="@layout/item_container_note"/>
+        tools:listitem="@layout/item_container_note" />
 
     <ImageView
         android:id="@+id/imageAddNoteMain"
         android:layout_width="@dimen/_40sdp"
         android:layout_height="@dimen/_40sdp"
-        android:layout_marginTop="16dp"
         android:background="@drawable/background_add_button"
         android:contentDescription="@string/app_name"
         android:padding="@dimen/_5sdp"
         android:src="@drawable/ic_add"
-        app:layout_constraintBottom_toTopOf="@+id/notesRecyclerView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.955"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layoutSearch"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/intentScholarship"
+        app:layout_constraintStart_toEndOf="@+id/intentNotes"
+        app:layout_constraintTop_toBottomOf="@+id/notesRecyclerView"
         app:tint="@color/colorPrimary" />
 
     <ImageView
@@ -94,6 +93,54 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:tint="@color/colorIcon" />
+
+    <ImageButton
+        android:id="@+id/homebtn"
+        android:layout_width="51dp"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/ic_home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notesRecyclerView" />
+
+    <ImageButton
+        android:id="@+id/intentNotes"
+        android:layout_width="51dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/ic_baseline_note_24"
+        app:layout_constraintStart_toEndOf="@+id/homebtn"
+        app:layout_constraintTop_toBottomOf="@+id/notesRecyclerView" />
+
+    <ImageButton
+        android:id="@+id/intentScholarship"
+        android:layout_width="51dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/ic_baseline_contacts_24"
+        app:layout_constraintEnd_toStartOf="@+id/intentFA"
+        app:layout_constraintTop_toBottomOf="@+id/notesRecyclerView" />
+
+    <ImageButton
+        android:id="@+id/intentFA"
+        android:layout_width="51dp"
+        android:layout_height="49dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/ic_baseline_attach_money_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notesRecyclerView" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,28 +5,43 @@
       <map>
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/drawable/background_add_button.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/drawable/ic_add.xml" value="0.14791666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/drawable/ic_baseline_attach_money_24.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/drawable/ic_baseline_checklist_24.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/drawable/ic_baseline_contacts_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/drawable/ic_baseline_note_24.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/drawable/ic_home.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/drawable/ic_menu_camera.xml" value="0.2703125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/drawable/ic_money.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/drawable/side_nav_bar.xml" value="0.2703125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/activity_add_transaction.xml" value="0.2421875" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/activity_addnotes.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/activity_addscholarship.xml" value="0.1" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/activity_budget_planner.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/activity_budget_planner.xml" value="0.176" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/activity_create_note.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/activity_detailed.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/activity_navigation_drawer.xml" value="0.11574074074074074" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/activity_notes2_list.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/activity_notes_list.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/activity_notes_list.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/activity_sholarship_list.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/activity_todolist.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/activity_todolist.xml" value="0.152" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.11574074074074074" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/content_navigation_drawer.xml" value="0.11574074074074074" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/drawer_layout.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/ic__label.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/item_container_note.xml" value="0.10462962962962963" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/layout_delete_note.xml" value="0.12335359675785208" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/layout_miscellaneous.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/nav_header.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/navigation_drawer.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/notesub_item.xml" value="0.2477355072463768" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/notesubitems.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/sholarship_item.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/transaction_layout.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/layout/view_website.xml" value="0.12335359675785208" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/menu/activity_main_drawer.xml" value="0.17006802721088435" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/menu/nav_menu.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/ScholarshipNews/app/src/main/res/menu/navigation_drawer.xml" value="0.11574074074074074" />
       </map>
     </option>
   </component>

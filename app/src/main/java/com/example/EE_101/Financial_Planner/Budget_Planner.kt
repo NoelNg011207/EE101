@@ -10,7 +10,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.room.Room
 import com.example.EE_101.MainActivity
+import com.example.EE_101.Notes.NotesListActivity
 import com.example.EE_101.R
+import com.example.EE_101.Scholarship.SholarshipListActivity
+import com.example.EE_101.To_do_list.To_do_activities.Todo_list_activity
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_budget_planner.*
 import kotlinx.coroutines.GlobalScope
@@ -54,6 +57,24 @@ class Budget_Planner : AppCompatActivity() {
         Homebtn.setOnClickListener {
             val Intent  = Intent(this, MainActivity::class.java)
             startActivity(Intent)
+        }
+
+        FAbackbtn.setOnClickListener {
+            val a=Intent(this,MainActivity::class.java)
+            startActivity(a)
+        }
+
+        intentNotes.setOnClickListener {
+            val b= Intent(this,NotesListActivity::class.java)
+            startActivity(b)
+        }
+        intentScholarship.setOnClickListener {
+            val c= Intent(this,SholarshipListActivity::class.java)
+            startActivity(c)
+        }
+        intentTDL.setOnClickListener {
+            val d=Intent(this,Todo_list_activity::class.java)
+            startActivity(d)
         }
     }
     private fun fetchAll(){

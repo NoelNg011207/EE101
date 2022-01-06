@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Scholarship.SholarshipListActivity"
-    android:background="@color/cardview_dark_background">
+    android:background="@color/black"
+    tools:context=".Scholarship.SholarshipListActivity">
 
     <ImageButton
         android:id="@+id/backbtn"
@@ -14,7 +14,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:background="#5A575E"
+        android:background="@color/colorDefaultNoteColor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="?attr/actionModeCloseDrawable"
@@ -28,6 +28,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginStart="76dp"
         android:layout_marginTop="76dp"
+        android:fontFamily="sans-serif-black"
         android:text="Scholarships"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -41,10 +42,11 @@
         android:layout_height="55dp"
         android:layout_below="@+id/headerscholarmain"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="24dp"
-        android:background="@color/teal_200"
+        android:layout_marginTop="56dp"
+        android:background="@color/green"
         android:minHeight="48dp"
         app:layout_constraintEnd_toStartOf="@+id/intentNotes"
+        app:layout_constraintHorizontal_bias="0.388"
         app:layout_constraintStart_toEndOf="@+id/intentTDL"
         app:layout_constraintTop_toBottomOf="@+id/ScholarshipList"
         app:srcCompat="@drawable/ic_add"

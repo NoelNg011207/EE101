@@ -44,8 +44,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="167dp"
-        android:layout_height="86dp"
+        android:layout_width="186dp"
+        android:layout_height="87dp"
         android:layout_marginTop="88dp"
         android:src="@drawable/image_of_grada"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,7 +63,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.351"
+        app:layout_constraintVertical_bias="0.35"
         app:srcCompat="@drawable/_0_poor_study_habits_opener" />
 
     <ImageButton
@@ -76,7 +76,7 @@
         android:text="financial_aid"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintHorizontal_bias="0.076"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/todolistIMG"
         app:layout_constraintVertical_bias="0.0"
@@ -137,14 +137,14 @@
         android:id="@+id/ScholarshioNewsImgButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="6dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
         android:background="#090808"
         android:contentDescription="@string/todo"
         android:minHeight="48dp"
         android:text="financial_aid"
         app:layout_constraintEnd_toStartOf="@+id/FinancialAidImgButton"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scholarshipIMG"
         app:srcCompat="@drawable/rectangle"
@@ -152,22 +152,22 @@
 
     <ImageView
         android:id="@+id/scholarshipIMG"
-        android:layout_width="189dp"
-        android:layout_height="114dp"
+        android:layout_width="188dp"
+        android:layout_height="108dp"
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/financialaidIMG"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.727"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.695"
+        app:layout_constraintVertical_bias="0.701"
         app:srcCompat="@drawable/image" />
 
     <ImageView
         android:id="@+id/financialaidIMG"
         android:layout_width="189dp"
         android:layout_height="114dp"
-        android:layout_marginBottom="188dp"
+        android:layout_marginBottom="180dp"
         android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

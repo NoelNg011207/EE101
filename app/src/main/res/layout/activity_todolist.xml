@@ -125,7 +125,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginEnd="12dp"
         android:background="@drawable/ic_baseline_contacts_24"
         app:layout_constraintEnd_toStartOf="@+id/intentFA"
         app:layout_constraintTop_toBottomOf="@+id/notesRecyclerView" />
@@ -136,8 +136,8 @@
         android:layout_height="49dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
         android:background="@drawable/ic_baseline_attach_money_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/notesRecyclerView" />

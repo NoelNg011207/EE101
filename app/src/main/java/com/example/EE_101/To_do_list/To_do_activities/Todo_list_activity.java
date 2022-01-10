@@ -138,7 +138,6 @@ public class Todo_list_activity extends AppCompatActivity implements NotesListen
                     notesAdapter.notifyItemInserted(0);
                     notesAdapter.notifyDataSetChanged();
                     notesRecyclerView.setAdapter(notesAdapter);
-                    //notesRecyclerView.smoothScrollToPosition(0);
 
                 } else if (requestCode == REQUEST_CODE_UPDATE_NOTES) {
                     noteList.remove(noteClickedPosition);
@@ -149,19 +148,11 @@ public class Todo_list_activity extends AppCompatActivity implements NotesListen
                         notesAdapter.notifyItemChanged(noteClickedPosition);
                         notesAdapter.notifyDataSetChanged();
                         noteList.add(noteClickedPosition, notes.get(noteClickedPosition));
-                        //notesAdapter.notifyItemInserted(noteClickedPosition);
                     }
                 }
             }
         }
         new GetNotesTask().execute();
     }
-
-    /*@Override
-    protected void onResume(){
-        super.onResume();
-        notesRecyclerView.setAdapter(notesAdapter);
-        getNotes(REQUEST_CODE_SHOW_NOTES,false);
-    }*/
 
 }

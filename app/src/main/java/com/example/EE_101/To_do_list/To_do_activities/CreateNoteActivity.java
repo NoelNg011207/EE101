@@ -48,12 +48,6 @@ public class CreateNoteActivity extends AppCompatActivity {
         ImageView imageSave = findViewById(R.id.imageSave);
         imageSave.setOnClickListener((v) -> saveNote());
         selectNoteColor = "#333333";
-        /*imageSave.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                saveNote();
-            }
-        });*/
 
         if(getIntent().getBooleanExtra("isViewOrUpdate",false)){
             alreadyAvailableNote = (Note) getIntent().getSerializableExtra("note");

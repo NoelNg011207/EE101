@@ -43,7 +43,7 @@
         android:layout_below="@+id/headerscholarmain"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="56dp"
-        android:background="@color/green"
+        android:background="@color/colorNoteColor2"
         android:minHeight="48dp"
         app:layout_constraintEnd_toStartOf="@+id/intentNotes"
         app:layout_constraintHorizontal_bias="0.388"

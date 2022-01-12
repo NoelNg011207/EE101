@@ -35,14 +35,13 @@ public class Todo_list_activity extends AppCompatActivity implements NotesListen
     private List<Note> noteList;
     private NotesAdapter notesAdapter;
 
-    private int noteClickedPosition=-1;
+    private int noteClickedPosition= -1 ;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_todolist);
-
 
         ImageView imageAddNoteMain = findViewById(R.id.imageAddNoteMain);
         imageAddNoteMain.setOnClickListener(view -> {
@@ -99,7 +98,7 @@ public class Todo_list_activity extends AppCompatActivity implements NotesListen
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data){
         super.onActivityResult(requestCode,resultCode,data);
-        if(requestCode == REQUEST_CODE_ADD_NOTES && requestCode == RESULT_OK){
+        if(requestCode == REQUEST_CODE_ADD_NOTES && resultCode == RESULT_OK){
             getNotes(REQUEST_CODE_ADD_NOTES, false);
         }else if (requestCode == REQUEST_CODE_UPDATE_NOTES && resultCode == RESULT_OK){
             if(data !=null){

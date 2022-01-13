@@ -27,9 +27,7 @@ public class CreateNoteActivity extends AppCompatActivity {
     private EditText inputNoteTitle, inputNoteSubtitle,inputNoteText;
     private String selectNoteColor;
     private View viewSubtitleIndicator;
-
     private Note alreadyAvailableNote;
-
     private AlertDialog dialogDeleteNote;
 
     @Override
@@ -239,7 +237,6 @@ public class CreateNoteActivity extends AppCompatActivity {
                         @Override
                         protected void onPostExecute(Void aVoid) {
                             super.onPostExecute(aVoid);
-                            //CreateNoteActivity.super.onCreate(aVoid);
                             Intent intent = new Intent();
                             intent.putExtra("isNoteDeleted", true);
                             setResult(RESULT_OK, intent);
